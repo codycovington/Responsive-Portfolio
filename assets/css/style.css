@@ -168,8 +168,8 @@ input {
     height: 200px;
 }
 
-/* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 992px) {
+/* On screens that are 980px or less, set the background color to blue */
+@media screen and (max-width: 980px) {
     body {
       background-color: blue;
     }
@@ -217,8 +217,8 @@ input {
 
   }
   
-  /* On screens that are 600px or less, set the background color to olive */
-  @media screen and (max-width: 600px) {
+  /* On screens that are 768px or less, set the background color to olive */
+  @media screen and (max-width: 768px) {
     body {
         background-color: darkorchid;
       }
@@ -265,3 +265,70 @@ input {
       }
   
     }
+
+    /* On screens that are 640px or less, set the background color to blue */
+    @media screen and (max-width: 640px) {
+        body {
+            background-color: olive;
+          }
+      
+          .container {
+              width: 100%;
+              height: auto;
+              margin: auto;
+          }
+          
+          .imagecontainer {
+              width: 300px;
+              height: 150px;
+              float: left;
+              position: relative;
+              margin: 30px;
+          }
+      
+          #header { 
+              margin: auto;
+              width: 100%;
+              align: center;
+              background-color: #ffffff;   
+          }
+      
+          #portfolio {
+              background-color: #ffffff;
+              width: 100%;
+              margin: auto;
+              overflow: auto;        
+          }
+      
+          #biography  {
+              background-color: #ffffff;
+              width: 100%;
+              margin: auto;   
+          }
+      
+          #contact {
+              background-color: #ffffff;
+              width: 100%;
+              margin: auto;
+              overflow: auto;
+          }
+
+          #nameplate {
+            background-color: #4aaaa5;
+            color: white;
+            width: 100%;
+            padding: 1em;
+            text-align: center;   
+        }
+
+        #navlink {
+            background-color: #ffffff;
+            padding: 1em;
+            width: 100%;
+            text-align: center;
+            margin-top: auto; 
+            margin-left: 5px;
+            margin-bottom: 10px;  
+        }
+      
+        }
